@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{579C74B0-030F-4B0B-AB2C-AE972AF53A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Service", "Postech.Fase3.Contatos.Delete.Service\Postech.Fase3.Contatos.Delete.Service.csproj", "{499D8A6B-614F-4151-AA28-B36D9B276148}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C2C4503F-982F-4653-863E-55AEBA3310BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{04E57410-C357-4CBF-A2A3-2008595ED5AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{4662D112-FE28-4A84-9DB7-B41F10B71D89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Application", "Postech.Fase3.Contatos.Delete.Application\Postech.Fase3.Contatos.Delete.Application.csproj", "{69522398-0231-4948-867F-8A5176ABB374}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Domain", "Postech.Fase3.Contatos.Delete.Domain\Postech.Fase3.Contatos.Delete.Domain.csproj", "{88A03554-3F8F-496D-9229-5E18E5854C30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Infra", "Postech.Fase3.Contatos.Delete.Infra\Postech.Fase3.Contatos.Delete.Infra.csproj", "{41589F37-68A6-4737-84ED-2237A0898354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Infra.CrossCuting", "Postech.Fase3.Contatos.Delete.Infra.CrossCuting\Postech.Fase3.Contatos.Delete.Infra.CrossCuting.csproj", "{6262E993-D65B-4116-BDDF-FD8DD6DF0003}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Infra.Ioc", "Postech.Fase3.Contatos.Delete.Infra.Ioc\Postech.Fase3.Contatos.Delete.Infra.Ioc.csproj", "{2AD49438-79EC-4651-B451-F4E750E46162}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{499D8A6B-614F-4151-AA28-B36D9B276148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{499D8A6B-614F-4151-AA28-B36D9B276148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{499D8A6B-614F-4151-AA28-B36D9B276148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{499D8A6B-614F-4151-AA28-B36D9B276148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69522398-0231-4948-867F-8A5176ABB374}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69522398-0231-4948-867F-8A5176ABB374}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69522398-0231-4948-867F-8A5176ABB374}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69522398-0231-4948-867F-8A5176ABB374}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88A03554-3F8F-496D-9229-5E18E5854C30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A03554-3F8F-496D-9229-5E18E5854C30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A03554-3F8F-496D-9229-5E18E5854C30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A03554-3F8F-496D-9229-5E18E5854C30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{41589F37-68A6-4737-84ED-2237A0898354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{41589F37-68A6-4737-84ED-2237A0898354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{41589F37-68A6-4737-84ED-2237A0898354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{41589F37-68A6-4737-84ED-2237A0898354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6262E993-D65B-4116-BDDF-FD8DD6DF0003}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6262E993-D65B-4116-BDDF-FD8DD6DF0003}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6262E993-D65B-4116-BDDF-FD8DD6DF0003}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6262E993-D65B-4116-BDDF-FD8DD6DF0003}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AD49438-79EC-4651-B451-F4E750E46162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AD49438-79EC-4651-B451-F4E750E46162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AD49438-79EC-4651-B451-F4E750E46162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AD49438-79EC-4651-B451-F4E750E46162}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{499D8A6B-614F-4151-AA28-B36D9B276148} = {579C74B0-030F-4B0B-AB2C-AE972AF53A8E}
+		{69522398-0231-4948-867F-8A5176ABB374} = {C2C4503F-982F-4653-863E-55AEBA3310BC}
+		{88A03554-3F8F-496D-9229-5E18E5854C30} = {04E57410-C357-4CBF-A2A3-2008595ED5AA}
+		{41589F37-68A6-4737-84ED-2237A0898354} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
+		{6262E993-D65B-4116-BDDF-FD8DD6DF0003} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
+		{2AD49438-79EC-4651-B451-F4E750E46162} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@Postech.Fase3.Contatos.Delete.Service_HostAddress = http://localhost:5243
+
+GET {{Postech.Fase3.Contatos.Delete.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
