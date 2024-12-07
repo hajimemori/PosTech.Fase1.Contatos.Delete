@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Dele
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Infra.Ioc", "Postech.Fase3.Contatos.Delete.Infra.Ioc\Postech.Fase3.Contatos.Delete.Infra.Ioc.csproj", "{2AD49438-79EC-4651-B451-F4E750E46162}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Integracao.Test", "Postech.Fase3.Contatos.Delete.Integracao.Test\Postech.Fase3.Contatos.Delete.Integracao.Test.csproj", "{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Postech.Fase3.Contatos.Delete.Test", "Postech.Fase3.Contatos.Delete.Test\Postech.Fase3.Contatos.Delete.Test.csproj", "{536A57B6-60AD-4A04-9D32-D90D95006963}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,14 @@ Global
 		{2AD49438-79EC-4651-B451-F4E750E46162}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AD49438-79EC-4651-B451-F4E750E46162}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AD49438-79EC-4651-B451-F4E750E46162}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536A57B6-60AD-4A04-9D32-D90D95006963}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536A57B6-60AD-4A04-9D32-D90D95006963}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536A57B6-60AD-4A04-9D32-D90D95006963}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536A57B6-60AD-4A04-9D32-D90D95006963}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -66,5 +78,7 @@ Global
 		{41589F37-68A6-4737-84ED-2237A0898354} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
 		{6262E993-D65B-4116-BDDF-FD8DD6DF0003} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
 		{2AD49438-79EC-4651-B451-F4E750E46162} = {36EBED2A-599A-4F36-B624-7E0E5E3ED9A0}
+		{AA5EBD8B-6BD7-4F56-A4CC-1A0F1BCAF91F} = {4662D112-FE28-4A84-9DB7-B41F10B71D89}
+		{536A57B6-60AD-4A04-9D32-D90D95006963} = {4662D112-FE28-4A84-9DB7-B41F10B71D89}
 	EndGlobalSection
 EndGlobal
