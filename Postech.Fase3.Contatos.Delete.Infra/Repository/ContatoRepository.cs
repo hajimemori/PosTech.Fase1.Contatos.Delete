@@ -9,8 +9,8 @@ public class ContatoRepository(AppDBContext context) : IContatoRepository
 {
     public async Task<Contato> Excluir(Contato c)
     {
+        c.DesativarContato();
         context.Contatos.Update(c);
-        //Alteracao para desativar
         await context.SaveChangesAsync();
         return c;
     }

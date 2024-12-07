@@ -19,7 +19,6 @@ public class ContatoService(IContatoRepository _contatoRepository) : IContatoSer
             if (!await _contatoRepository.ExisteAsync(contato))
                 return new ServiceResult<bool>(new ValidacaoException("Contato não encontrado"));
 
-            contato.DesativarContato();
             await _contatoRepository.Excluir(contato);
 
             return new ServiceResult<bool>(true);
